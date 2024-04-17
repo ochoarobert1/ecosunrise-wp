@@ -1,0 +1,398 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "33a9e181900983f7653f23d95d6f679b",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^5.3",
+                "symfony/process": "^5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "matomo",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "tastyigniter",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-08-20T06:45:11+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/better-search-replace",
+            "version": "1.4.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/better-search-replace/",
+                "reference": "tags/1.4.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/better-search-replace.1.4.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/better-search-replace/"
+        },
+        {
+            "name": "wpackagist-plugin/cf7-multi-step",
+            "version": "2.7.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cf7-multi-step/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cf7-multi-step.zip?timestamp=1711099636"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cf7-multi-step/"
+        },
+        {
+            "name": "wpackagist-plugin/complianz-gdpr",
+            "version": "7.0.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/complianz-gdpr/",
+                "reference": "tags/7.0.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/complianz-gdpr.7.0.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/complianz-gdpr/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.9.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.9.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.9.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-cfdb7",
+            "version": "1.2.6.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-cfdb7/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-cfdb7.zip?timestamp=1712136038"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-cfdb7/"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "3.21.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/3.21.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.21.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/elementskit-lite",
+            "version": "3.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementskit-lite/",
+                "reference": "tags/3.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementskit-lite.3.1.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementskit-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/header-footer-elementor",
+            "version": "1.6.28",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/header-footer-elementor/",
+                "reference": "tags/1.6.28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/header-footer-elementor.1.6.28.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/header-footer-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/litespeed-cache",
+            "version": "6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/litespeed-cache/",
+                "reference": "tags/6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/litespeed-cache.6.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/litespeed-cache/"
+        },
+        {
+            "name": "wpackagist-plugin/query-monitor",
+            "version": "3.15.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/query-monitor/",
+                "reference": "tags/3.15.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.15.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/query-monitor/"
+        },
+        {
+            "name": "wpackagist-plugin/regenerate-thumbnails",
+            "version": "3.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "reference": "tags/3.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.3.1.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "22.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/22.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.22.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-theme/hello-elementor",
+            "version": "3.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/hello-elementor/",
+                "reference": "3.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.3.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/hello-elementor/"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
