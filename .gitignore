@@ -1,4 +1,5 @@
-/docker/mysql/data/
+/.docker/mysql/data/
+/.docker/mysql/backup/
 /source/plugins/hello.php
 /source/plugins/index.php
 /source/plugins/dominant-color-images/
@@ -18,6 +19,7 @@ k/source/plugins/classic-editor/
 /source/themes/index.php
 /source/themes/hello*
 /source/themes/twenty*
+/source/uploads/
 /vendor/
 /node_modules/
 .env
