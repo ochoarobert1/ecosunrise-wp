@@ -1,4 +1,4 @@
-/* 
+/*!
 Theme Name: Hello Elementor Child
 Theme URI: https://github.com/elementor/hello-theme-child/
 Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team
@@ -10,8 +10,4 @@ Text Domain: hello-elementor-child
 License: GNU General Public License v3 or later.
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
-*/
-
-/* Add your custom styles here */
-
-html{font-size:16px;line-height:32px;}body{margin:0;padding:0;font-family:"Kumbh Sans",Sans-serif}.wpcf7-form-control{font-family:"Kumbh Sans",Sans-serif}.footer-menu ul{list-style:none;padding:0;display:flex;align-items:flex-start;justify-content:flex-start;flex-flow:column;gap:12px}.footer-links a,.footer-menu ul li a{color:#fff;font-size:.8rem}.wpcf7-acceptance span label{display:flex;align-items:center;justify-content:space-between;gap:30px;text-align:justify}.wpcf7-acceptance .wpcf7-list-item{margin:0}@media (max-width:767px){.footer-menu ul{align-items:center}.wpcf7-acceptance span label{align-items:flex-start;justify-content:flex-start;gap:0;flex-flow:column}.fieldset-cf7mls h3{font-size:1.4rem;text-align:center}.cf7mls-btns .cf7mls_back.action-button,.cf7mls-btns .cf7mls_next.action-button{margin:0;padding:13px 15px;font-size:.8rem}}.elementskit-menu-overlay.elementskit-menu-offcanvas-elements.elementskit-menu-toggler.ekit-nav-menu--overlay.active{display:none}
+*/html{font-size:16px;line-height:32px}body{margin:0;padding:0;font-family:"Kumbh Sans",Sans-serif}.wpcf7-form-control{font-family:"Kumbh Sans",Sans-serif}.footer-menu ul{list-style:none;padding:0;display:flex;align-items:flex-start;justify-content:flex-start;flex-flow:column;gap:12px}@media (max-width:767px){.footer-menu ul{align-items:center}}.footer-menu ul li a{color:#ffffff;font-size:.8rem}.footer-links a{color:#ffffff;font-size:.8rem}.wpcf7-acceptance span label{display:flex;align-items:center;justify-content:space-between;gap:30px;text-align:justify}@media (max-width:767px){.wpcf7-acceptance span label{align-items:flex-start;justify-content:flex-start;gap:0;flex-flow:column}}.wpcf7-acceptance .wpcf7-list-item{margin:0}.elementskit-menu-overlay.elementskit-menu-offcanvas-elements.elementskit-menu-toggler.ekit-nav-menu--overlay.active{display:none}@media (max-width:767px){.fieldset-cf7mls h3{font-size:1.4rem;text-align:center}.cf7mls-btns .cf7mls_back.action-button,.cf7mls-btns .cf7mls_next.action-button{margin:0;padding:13px 15px;font-size:.8rem}}.landing-sticky{background:#000000c7}.image-caption figure{position:relative}.image-caption figure figcaption{position:absolute;top:-8%;left:42%;width:40px;height:40px;display:inline-flex;align-items:center;justify-content:center;border-radius:100%}span.big-number{background:#4caf52;color:#FFF;height:40px;width:40px;display:inline-flex;align-items:center;justify-content:center;border-radius:100%;margin-right:10px;vertical-align:bottom}
