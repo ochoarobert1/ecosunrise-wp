@@ -48,3 +48,5 @@ if (function_exists('add_image_size')) {
 }
 
 require_once('inc/custom-taxonomy.php');
+require_once('inc/custom-elementor.php');
+require_once('inc/custom-customizer.php');
