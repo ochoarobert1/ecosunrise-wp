@@ -47,6 +47,7 @@ function elementor_test_widgets_dependencies()
         'form_ajax',
         [
             'thanks_page' => get_permalink($thanks_page['thanks_page']),
+            'zapier_endpoint' => $thanks_page['zapier_endpoint'],
         ]
     );
 }

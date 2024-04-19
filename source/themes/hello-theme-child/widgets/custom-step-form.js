@@ -125,7 +125,7 @@ function submitForm() {
   if (passd) {
     jQuery.ajax({
       type: "POST",
-      url: "https://hooks.zapier.com/hooks/catch/16527931/3n09bbj/",
+      url: form_ajax.zapier_endpoint,
       data: jQuery.param(formData),
       beforeSend: function () {
         screenForm.addClass("hidden");

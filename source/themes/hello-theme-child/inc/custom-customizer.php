@@ -48,6 +48,26 @@ function ecosunrise_customize_register($wp_customize)
             'label' => __('Thanks Page', 'hello-elementor-child'),
         )
     );
+
+    $wp_customize->add_setting(
+        'es_thanks_page[zapier_endpoint]',
+        array(
+            'default'           => '',
+            'sanitize_callback' => '',
+            'capability'        => 'edit_theme_options',
+            'type'           => 'option'
+        )
+    );
+
+    $wp_customize->add_control(
+        'zapier_endpoint',
+        array(
+            'type' => 'text',
+            'section' => 'es_thanks_page',
+            'settings' => 'es_thanks_page[zapier_endpoint]',
+            'label' => __('Zapier Endpoint', 'hello-elementor-child'),
+        )
+    );
 }
 
 function sanitize_dropdown_pages($page_id, $setting)
