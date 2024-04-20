@@ -1,0 +1,544 @@
+.no-scroll {
+	overflow: hidden;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.custom-step-form-zip-part {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.custom-step-form-zip-part .custom-step-form-zip-part-inner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.custom-step-form-zip-part .custom-step-form-zip-part-inner .input-item {
+	flex: 0 0 48%;
+}
+
+.custom-step-form-zip-part .custom-step-form-zip-part-inner .error-zip {
+	flex: 0 0 100%;
+	text-align: center;
+	font-size: 1.2rem;
+	color: #FFF;
+}
+
+.custom-step-form-zip-part .custom-step-form-zip-part-inner .input-item input {
+	width: 250px;
+	padding: 20px 10px;
+	border-radius: 25px;
+	border: 0;
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+.custom-step-form-zip-part .custom-step-form-zip-part-inner .input-item button {
+	background: #4caf52;
+	color: #FFF;
+	width: 250px;
+	padding: 20px 10px;
+	border-radius: 25px;
+	border: 0;
+	font-size: 1.1rem;
+	text-align: center;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
+.custom-step-form-zip-part .custom-step-form-zip-part-inner .input-item button:hover {
+	background: #000;
+}
+
+.custom-step-form-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 98;
+	width: 100%;
+	height: 100vh;
+	background: url(https://ecosunriseenergy.com/wp-content/uploads/2024/04/foto-principal-landing-page.webp);
+	background-size: cover;
+	background-position: center center;
+}
+
+.custom-multi-step-form-overlay-inner {
+	background: #000000a8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	overflow-y: scroll;
+	inset: 0;
+}
+
+.custom-multi-step-form-overlay-inner .hidden {
+	display: none;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-header {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	text-align: center;
+	color: #FFF;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-header h2 {
+	margin-bottom: 0;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-header progress {
+	width: 100%;
+	max-width: 600px;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-header progress[value] {
+	background: #4caf52;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-header p {
+	font-size: 1.3rem;
+	margin-top: 0;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-header p span {
+	color: #4caf52;
+	font-weight: 700;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content {
+	width: 100%;
+	max-width: 800px;
+	text-align: center;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item {
+	display: none;
+	color: #FFF;
+	font-size: 1.3rem;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .active {
+	display: block;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container input[type=radio] {
+	display: none;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container label {
+	width: 300px;
+	background: transparent;
+	margin: 0 10px;
+	text-align: center;
+	font-size: 1.8rem;
+	height: 100px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25px;
+	border: 1px solid white;
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container input[type=radio]:checked+label {
+	background: #4caf52;
+	border-color: #4caf52;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-address {
+	width: 100%;
+	max-width: 480px;
+	padding: 17px;
+	font-size: 1.2rem;
+	border-radius: 25px;
+	border: 0;
+	text-align: center;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-email {
+	width: 100%;
+	max-width: 480px;
+	padding: 17px;
+	font-size: 1.2rem;
+	border-radius: 25px;
+	border: 0;
+	text-align: center;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .multi-step-double-input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .multi-step-double-input input[type=text] {
+	padding: 17px;
+	font-size: 1.2rem;
+	border-radius: 25px;
+	border: 0;
+	text-align: center;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .label-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	height: 180px !important;
+	gap: 17px;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container-sunlight {
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-phone {
+	width: 100%;
+	max-width: 480px;
+	padding: 17px;
+	font-size: 1.2rem;
+	border-radius: 25px;
+	border: 0;
+	text-align: center;
+}
+
+
+footer.multi-step-navigation {
+	position: absolute;
+	bottom: 10%;
+	width: 100%;
+	max-width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 2rem;
+}
+
+footer.multi-step-navigation .button-step {
+	color: #FFF;
+	border: 1px solid;
+	padding: 0.8rem 2.5rem;
+	font-size: 1.5rem;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
+footer.multi-step-navigation .button-step-prev {
+	background: transparent;
+	border-color: #FFF;
+}
+
+footer.multi-step-navigation .button-step-prev i {
+	margin-right: 5px;
+}
+
+footer.multi-step-navigation .button-step-next {
+	background: #4caf52;
+	border-color: #4caf52;
+}
+
+footer.multi-step-navigation .button-step-next i {
+	margin-left: 5px;
+}
+
+footer.multi-step-navigation .button-step:hover {
+	background: #000;
+}
+
+.custom-multi-step-form-overlay-inner-loader {
+	background: #000000a8;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	overflow-y: scroll;
+	inset: 0;
+}
+
+.custom-multi-step-form-overlay-inner-loader h2 {
+	margin-bottom: 1rem;
+	text-align: center;
+	color: #FFF;
+}
+
+.custom-multi-step-form-overlay-inner-loader .loader {
+	width: 70px;
+	height: 26px;
+	background: #4caf52;
+	--c: no-repeat linear-gradient(#000 0 0);
+	--s: 18px 18px;
+	-webkit-mask:
+		var(--c) left 4px top 50%,
+		var(--c) center,
+		var(--c) right 4px top 50%,
+		linear-gradient(#000 0 0);
+	-webkit-mask-composite: xor;
+	mask-composite: exclude;
+	animation: l2 1.5s infinite;
+}
+
+
+@keyframes l2 {
+	0% {
+		-webkit-mask-size: 0 0, 0 0, 0 0, auto
+	}
+
+	16.67% {
+		-webkit-mask-size: var(--s), 0 0, 0 0, auto
+	}
+
+	33.33% {
+		-webkit-mask-size: var(--s), var(--s), 0 0, auto
+	}
+
+	50% {
+		-webkit-mask-size: var(--s), var(--s), var(--s), auto
+	}
+
+	66.67% {
+		-webkit-mask-size: 0 0, var(--s), var(--s), auto
+	}
+
+	83.33% {
+		-webkit-mask-size: 0 0, 0 0, var(--s), auto
+	}
+
+	100% {
+		-webkit-mask-size: 0 0, 0 0, 0 0, auto
+	}
+}
+
+.range-slider {
+	margin: 60px 0 0 0;
+}
+
+.range-slider {
+	width: 100%;
+}
+
+.range-slider__range {
+	-webkit-appearance: none;
+	width: 70%;
+	height: 10px;
+	border-radius: 5px;
+	background: #d7dcdf;
+	outline: none;
+	padding: 0;
+	margin: 0 20px;
+}
+
+.range-slider__range::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #2c3e50;
+	cursor: pointer;
+	-webkit-transition: background 0.15s ease-in-out;
+	transition: background 0.15s ease-in-out;
+}
+
+.range-slider__range::-webkit-slider-thumb:hover {
+	background: #1abc9c;
+}
+
+.range-slider__range:active::-webkit-slider-thumb {
+	background: #1abc9c;
+}
+
+.range-slider__range::-moz-range-thumb {
+	width: 20px;
+	height: 20px;
+	border: 0;
+	border-radius: 50%;
+	background: #2c3e50;
+	cursor: pointer;
+	-moz-transition: background 0.15s ease-in-out;
+	transition: background 0.15s ease-in-out;
+}
+
+.range-slider__range::-moz-range-thumb:hover {
+	background: #1abc9c;
+}
+
+.range-slider__range:active::-moz-range-thumb {
+	background: #1abc9c;
+}
+
+.range-slider__range:focus::-webkit-slider-thumb {
+	box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1abc9c;
+}
+
+.range-slider__value {
+	display: inline-block;
+	position: relative;
+	width: 60px;
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 3px;
+	background: #2c3e50;
+	padding: 5px 10px;
+	margin-left: 8px;
+}
+
+::-moz-range-track {
+	background: #d7dcdf;
+	border: 0;
+}
+
+input::-moz-focus-inner,
+input::-moz-focus-outer {
+	border: 0;
+}
+
+@media screen and (max-width: 991px) {
+	.custom-multi-step-form-overlay-inner .multi-step-header {
+		top: 150px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.custom-multi-step-form-overlay-inner .multi-step-header {
+		position: unset;
+		padding: 2rem 1rem 0;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-header p {
+		font-size: 1rem;
+		margin-top: 0;
+		line-height: 1.2rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item h2 {
+		font-size: 1.1rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item {
+		font-size: 0.8rem;
+		line-height: 1.1rem;
+	}
+
+	.range-slider__range {
+		width: 50%;
+	}
+
+	footer.multi-step-navigation {
+		position: fixed;
+		bottom: 0;
+		padding: 1rem 2rem;
+		background: #0000008f;
+	}
+
+	footer.multi-step-navigation .button-step {
+		padding: 0.5rem 1.5rem;
+		font-size: 0.9rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container {
+		flex-flow: column;
+		flex-wrap: wrap;
+		max-width: 93%;
+	}
+
+	.radio-input {
+		flex: 0 0 100%;
+		width: 100%;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container label {
+		flex: 0 0 100%;
+		width: 100%;
+		max-width: 100%;
+		font-size: 1rem;
+		height: unset;
+		padding: 0.5rem 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-address {
+		width: 90%;
+		max-width: 100%;
+		padding: 10px;
+		font-size: 1.2rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .label-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-flow: row;
+		height: unset !important;
+		gap: 20px;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .label-icon img {
+		max-width: 30px;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container-sunlight {
+		flex-wrap: wrap;
+		gap: 0;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-email {
+		width: 90%;
+		max-width: 100%;
+		padding: 10px;
+		font-size: 1.2rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .multi-step-double-input {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		flex-flow: column;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .multi-step-double-input input[type=text] {
+		padding: 10px;
+		font-size: 1rem;
+		border-radius: 25px;
+		border: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-phone {
+		width: 90%;
+		max-width: 100%;
+		padding: 10px;
+		font-size: 1.2rem;
+	}
+}

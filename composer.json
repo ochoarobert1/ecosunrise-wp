@@ -1,0 +1,57 @@
+{
+    "name": "ochoarobert1/ecosunrise",
+    "description": "WordPress environment for Ecosunrise Energy",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Robert Ochoa",
+            "email": "ochoa.robert1@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Acme": "src/"
+        }
+    },
+    "extra": {
+        "installer-paths": {
+            "source/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ],
+            "source/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
+    },
+    "require": {
+        "wpackagist-plugin/elementor": "^3.21",
+        "wpackagist-plugin/header-footer-elementor": "^1.6",
+        "wpackagist-theme/hello-elementor": "^3.0",
+        "wpackagist-plugin/better-search-replace": "^1.4",
+        "wpackagist-plugin/contact-form-7": "^5.9",
+        "wpackagist-plugin/contact-form-cfdb7": "^1.2",
+        "wpackagist-plugin/complianz-gdpr": "^7.0",
+        "wpackagist-plugin/elementskit-lite": "^3.1",
+        "wpackagist-plugin/litespeed-cache": "^6.1",
+        "wpackagist-plugin/cf7-multi-step": "^2.7",
+        "wpackagist-plugin/regenerate-thumbnails": "^3.1",
+        "wpackagist-plugin/wordpress-seo": "^22.5",
+        "wpackagist-plugin/query-monitor": "^3.15"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
