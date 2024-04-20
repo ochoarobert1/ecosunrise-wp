@@ -125,14 +125,14 @@ class CustomStepForm extends \Elementor\Widget_Base
 			<div id="formOverlay" class="custom-step-form-overlay">
 				<div id="formContainer" class="custom-multi-step-form-overlay-inner">
 					<div class="multi-step-header">
-						<h2>Calculate your Savings</h2>
+						<h2>Calcula tus ahorros</h2>
 						<progress id="progressBar" value="11" max="100"></progress>
-						<p>Your Savings Calculation is <span id="progressNumber">11%</span> Complete</p>
+						<p>Su cálculo de ahorro está a un <span id="progressNumber">11%</span> de completarse</p>
 					</div>
 					<div class="multi-step-content">
 						<div class="multi-step-item multi-step-item-1 active">
-							<h2>What is Your Average Electric Bill?</h2>
-							<p>We use this information to calculate your savings. Move the slider to select.</p>
+							<h2>¿Cuál es su factura eléctrica promedio?</h2>
+							<p>Utilizamos esta información para calcular sus ahorros. Mueva el control deslizante para seleccionar.</p>
 							<div class="range-slider">
 								<span class="range-slider-minimum">$101</span>
 								<input id="electric-bill" name="electric-bill" class="range-slider__range" type="range" value="400" min="101" max="800">
@@ -143,111 +143,112 @@ class CustomStepForm extends \Elementor\Widget_Base
 							</div> 
 						</div>
 						<div class="multi-step-item multi-step-item-2">
-							<h2>Select Your Utility Provider</h2>
-							<p>We'll look up utility rates to calculate new savings</p>
+							<h2>Seleccione su proveedor de servicios públicos</h2>
+							<p>Buscaremos tarifas de servicios públicos para calcular nuevos ahorros.</p>
 							<div class="radio-container">
 								<div class="radio-input">
 									<input type="radio" name="utility" id="florida_co" value="Florida Power and Light Company" />
 									<label for="florida_co"> Florida Power & Light Co.</label>
 								</div>
 								<div class="radio-input">
-									<input type="radio" name="utility" id="other_co" value="Other" />
-									<label for="other_co"> Other</label>
+									<input type="radio" name="utility" id="other_co" value="Otro" />
+									<label for="other_co"> Otro</label>
 								</div>
 							</div>
-							<small class="error-utility error hidden">You must select one these options</small>
+							<small class="error-utility error hidden">Debes seleccionar una de estas opciones</small>
 						</div>
 						
 						<div class="multi-step-item multi-step-item-3">
-							<h2>Your Street Address</h2>
-							<p>We'll lookup rebates and incentives for your home</p>
-							<input class="form-address" autocomplete="address-line1" name="address" id="address" type="text" placeholder="Enter your street address" />
+							<h2>Su dirección postal</h2>
+							<p>Buscaremos reembolsos e incentivos para su casa.</p>
+							<input class="form-address" autocomplete="address-line1" name="address" id="address" type="text" placeholder="Introduzca su dirección postal" />
 							<br>
-							<small class="error-address error hidden">You must enter your street address</small>
+							<small class="error-address error hidden">Debes ingresar tu dirección postal</small>
 						</div>
 						<div class="multi-step-item multi-step-item-4">
-							<h2>Do You Own This Address?</h2>
+							<h2>¿Es usted el propietario de esta dirección?</h2>
 							<div class="radio-container">
 								<div class="radio-input">
 									<input type="radio" name="ownership" id="yes" value="Yes" />
-									<label for="yes"> Yes</label>
+									<label for="yes"> Si</label>
 								</div>
 								<div class="radio-input">
 									<input type="radio" name="ownership" id="no" value="No" />
 									<label for="no"> No</label>
 								</div>
 							</div>
-							<small class="error-ownership error hidden">You must select one these options</small>
+							<small class="error-ownership error hidden">Debes seleccionar una de estas opciones</small>
 						</div>
 						<div class="multi-step-item multi-step-item-5">
-							<h2>Does Your Roof Get Sunlight?</h2>
-							<p>We'll calculate the best possible savings for your particular project.</p>
+							<h2>¿Su techo recibe luz solar?</h2>
+							<p>Calcularemos los mejores ahorros posibles para su proyecto en particular.</p>
 							<div class="radio-container radio-container-sunlight">
 								<div class="radio-input">
-									<input type="radio" name="sunlight" id="full" value="Full Sunlight" />
-									<label for="full" class="label-icon"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/no-shade.svg" alt="Full Sunlight" />Full Sunlight</label>
+									<input type="radio" name="sunlight" id="full" value="Luz solar plena" />
+									<label for="full" class="label-icon"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/no-shade.svg" alt="Luz solar plena" />Luz solar plena</label>
 								</div>
 								<div class="radio-input">
-									<input type="radio" name="sunlight" id="someshade" value="Some Shade" />
-									<label for="someshade" class="label-icon"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/little-shade.svg" alt="Some Shade" />Some Shade</label>
+									<input type="radio" name="sunlight" id="someshade" value="Un poco de sombra" />
+									<label for="someshade" class="label-icon"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/little-shade.svg" alt="Un poco de sombra" />Un poco de sombra</label>
 								</div>
 								<div class="radio-input">
-									<input type="radio" name="sunlight" id="severeshade" value="Severe Shade" />
-									<label for="severeshade" class="label-icon"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/lot-of-shade.svg" alt="Severe Shade" />Severe Shade</label>
+									<input type="radio" name="sunlight" id="severeshade" value="Sombra severa" />
+									<label for="severeshade" class="label-icon"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/lot-of-shade.svg" alt="Sombra severa" />Sombra severa</label>
 								</div>
 								<div class="radio-input">
-									<input type="radio" name="sunlight" id="uncertain" value="Uncertain" />
-									<label for="uncertain" class="label-icon"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/uncertain.svg" alt="Unvertain" />Uncertain</label>
+									<input type="radio" name="sunlight" id="uncertain" value="No estoy Seguro" />
+									<label for="uncertain" class="label-icon"><img src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/uncertain.svg" alt="Unvertain" />No estoy Seguro</label>
 								</div>
 							</div>
-							<small class="error-sunlight error hidden">You must select one these options</small>
+							<small class="error-sunlight error hidden">Debes seleccionar una de estas opciones</small>
 						</div>
 						<div class="multi-step-item multi-step-item-6">
-							<h2>Your Estimate Is Almost Ready!</h2>
-							<p>We'll Deliver Your Exclusive Savings By Email</p>
-							<input class="form-email" autocomplete="email" type="email" name="email" id="" placeholder="Enter your email address" />
+							<h2>¡Su estimación está casi lista!</h2>
+							<p>Le enviaremos sus ahorros exclusivos por correo electrónico</p>
+							<input class="form-email" autocomplete="email" type="email" name="email" id="" placeholder="Ingresa tu dirección de correo" />
 							<br>
-							<small class="error-email error hidden">You must enter your email address</small>
+							<small class="error-email error hidden">Debes ingresar tu dirección de correo electrónico</small>
 						</div>
 						<div class="multi-step-item multi-step-item-7">
-							<h2>Who Is This Estimate For?</h2>
-							<p>We Take Privacy Seriously. No Spam Ever!</p>
+							<h2>¿Para quién es esta estimación?</h2>
+							<p>Nos tomamos en serio la privacidad. ¡Nunca habrá spam!</p>
 							<div class="multi-step-double-input">
-								<label for="first_name">First Name <br/><input type="text" name="first_name" id="first_name" placeholder="First Name" /></label>
-								<label for="last_name">Last Name <br/><input type="text" name="last_name" id="last_name" placeholder="Last Name" /></label>
+								<label for="first_name">Nombre <br/><input type="text" name="first_name" id="first_name" placeholder="Nombre" /></label>
+								<label for="last_name">Apellido <br/><input type="text" name="last_name" id="last_name" placeholder="Apellido" /></label>
 							</div>
 							<br>
-							<small class="error-name error hidden">You must enter your first and last name</small>
+							<small class="error-name error hidden">Debes ingresar tu nombre y apellido</small>
 						</div>
 						<div class="multi-step-item multi-step-item-8">
-							<h2>Final Step!</h2>
-							<p>Complete The Final Step To See Savings!</p>
-							<label for="phone">Phone Number<br/><input class="form-phone" autocomplete="tel" type="tel" name="phone" id="phone" placeholder="Phone Number" /></label>
+							<h2>¡Último paso!</h2>
+							<p>¡Complete el paso final para ver los ahorros!</p>
+							<label for="phone">Número de teléfono<br/><input class="form-phone" autocomplete="tel" type="tel" name="phone" id="phone" placeholder="Número de teléfono" /></label>
 							<br />
-							<small class="error-tel error hidden">You must enter your phone number</small>
+							<small class="error-tel error hidden">Debes ingresar tu número de teléfono</small>
 							<br />
-							<small>By clicking the "View My Savings" button, you authorize Ecosunrise Energy and up to 4 solar partners to call you and send you pre-recorded messages and text messages at the number you entered above, using an autodialer, with offers about their products or services, even if your phone number is on any national or state "Do Not Call" list. <br/>Message and data rates may apply. Your consent here is not based on a condition of purchase.</small>
+							<small>Al hacer clic en el botón "Ver mis ahorros", usted autoriza a Ecosunrise Energy y hasta 4 socios solares a llamarlo y enviarle mensajes pregrabados y mensajes de texto al número que ingresó arriba, utilizando un marcador automático, con ofertas sobre sus productos o servicios, incluso si su número de teléfono está en cualquier lista nacional o estatal de "No llamar". <br/>Es posible que se apliquen tarifas de mensajes y datos. Su consentimiento aquí no se basa en una condición de compra..</small>
 						</div>
 					</div>
 					<footer class="multi-step-navigation">
 						<button data-step="1" id="multiStepPrev" class="button-step button-step-prev"><i class="fas fa-chevron-left"></i> Prev</button>
-						<button data-step="2" id="multiStepNext" class="button-step button-step-next">Next <i class="fas fa-chevron-right"></i> </button>
-						<button type="submit" id="multiStepSubmit" class="button-step button-step-next hidden">View My Savings</button>
+						<button data-step="2" id="multiStepNext" class="button-step button-step-next">Sig <i class="fas fa-chevron-right"></i> </button>
+						<button type="submit" id="multiStepSubmit" class="button-step button-step-next hidden">Ver mis ahorros</button>
 					</footer>
 				</div>
 				<div id="multiStepLoader" class="custom-multi-step-form-overlay-inner-loader hidden">
+					<h2>Estamos haciendo los cálculos necesarios para mostrarle su ahorro...</h2>
 					<div class="loader"></div>
 				</div>
 			</div>
 			<div class="custom-step-form-zip-part">
 				<div class="custom-step-form-zip-part-inner">
 					<div class="input-item">
-						<input type="text" name="zipcode" id="zipcode" placeholder="Enter your zip code" autocomplete="postal-code" />
+						<input type="text" name="zipcode" id="zipcode" placeholder="Ingresa tu código postal" autocomplete="postal-code" />
 					</div>
 					<div class="input-item">
 						<button id="openBtnOverlay"><?php echo esc_html($settings['first_button']); ?></button>
 					</div>
-					<small class="error-zip error hidden">This field cannot be empty</small>
+					<small class="error-zip error hidden">Este campo no puede estar vacío</small>
 				</div>
 			</div>
 		</form>

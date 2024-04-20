@@ -1,3 +1,7 @@
+.no-scroll {
+	overflow: hidden;
+}
+
 .hidden {
 	display: none !important;
 }
@@ -31,7 +35,7 @@
 	padding: 20px 10px;
 	border-radius: 25px;
 	border: 0;
-	font-size: 1.4rem;
+	font-size: 1.1rem;
 	text-align: center;
 }
 
@@ -42,7 +46,7 @@
 	padding: 20px 10px;
 	border-radius: 25px;
 	border: 0;
-	font-size: 1.4rem;
+	font-size: 1.1rem;
 	text-align: center;
 	cursor: pointer;
 	transition: all .3s ease-in-out;
@@ -230,6 +234,7 @@ footer.multi-step-navigation {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	padding: 0 2rem;
 }
 
 footer.multi-step-navigation .button-step {
@@ -277,6 +282,12 @@ footer.multi-step-navigation .button-step:hover {
 	flex-flow: column;
 	overflow-y: scroll;
 	inset: 0;
+}
+
+.custom-multi-step-form-overlay-inner-loader h2 {
+	margin-bottom: 1rem;
+	text-align: center;
+	color: #FFF;
 }
 
 .custom-multi-step-form-overlay-inner-loader .loader {
@@ -409,4 +420,124 @@ footer.multi-step-navigation .button-step:hover {
 input::-moz-focus-inner,
 input::-moz-focus-outer {
 	border: 0;
+}
+
+@media screen and (max-width: 991px) {
+	.custom-multi-step-form-overlay-inner .multi-step-header {
+		top: 150px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.custom-multi-step-form-overlay-inner .multi-step-header {
+		position: unset;
+		padding: 2rem 1rem 0;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-header p {
+		font-size: 1rem;
+		margin-top: 0;
+		line-height: 1.2rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item h2 {
+		font-size: 1.1rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item {
+		font-size: 0.8rem;
+		line-height: 1.1rem;
+	}
+
+	.range-slider__range {
+		width: 50%;
+	}
+
+	footer.multi-step-navigation {
+		bottom: 0;
+		padding: 1rem 2rem;
+		background: #0000008f;
+	}
+
+	footer.multi-step-navigation .button-step {
+		padding: 0.5rem 1.5rem;
+		font-size: 0.9rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container {
+		flex-flow: column;
+		flex-wrap: wrap;
+		max-width: 93%;
+	}
+
+	.radio-input {
+		flex: 0 0 100%;
+		width: 100%;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container label {
+		flex: 0 0 100%;
+		width: 100%;
+		max-width: 100%;
+		font-size: 1rem;
+		height: unset;
+		padding: 0.5rem 1rem;
+		margin-bottom: 1rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-address {
+		width: 90%;
+		max-width: 100%;
+		padding: 10px;
+		font-size: 1.2rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .label-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-flow: row;
+		height: unset !important;
+		gap: 20px;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .label-icon img {
+		max-width: 30px;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .radio-container-sunlight {
+		flex-wrap: wrap;
+		gap: 0;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-email {
+		width: 90%;
+		max-width: 100%;
+		padding: 10px;
+		font-size: 1.2rem;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .multi-step-double-input {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		flex-flow: column;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .multi-step-double-input input[type=text] {
+		padding: 10px;
+		font-size: 1rem;
+		border-radius: 25px;
+		border: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	.custom-multi-step-form-overlay-inner .multi-step-content .multi-step-item .form-phone {
+		width: 90%;
+		max-width: 100%;
+		padding: 10px;
+		font-size: 1.2rem;
+	}
 }
