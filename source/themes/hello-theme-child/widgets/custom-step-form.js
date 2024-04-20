@@ -19,6 +19,7 @@ jQuery(document).ready(function () {
     } else {
       jQuery(".error-zip").addClass("hidden");
       formOverlay.show();
+      jQuery("body").addClass("no-scroll");
     }
   });
 
@@ -53,6 +54,7 @@ jQuery(document).ready(function () {
     formSubmit.addClass("hidden");
     if (parseInt(prevStep) === 1) {
       formOverlay.hide();
+      jQuery("body").removeClass("no-scroll");
     } else {
       formPrev.attr("data-step", parseInt(prevStep) - 1);
       formNext.attr("data-step", prevStep);
